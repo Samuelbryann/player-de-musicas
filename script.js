@@ -9,7 +9,7 @@ function reproduzir(){
     document.querySelector("#progresso").style.display = "flex"
     document.querySelector("#controls").style.display = "flex"
 
-    document.querySelector("#mk").style.backgroundColor = "rgba(47, 255, 57, 0.89)"
+    document.querySelector("#mk").style.backgroundColor = "rgba(47, 255, 57, 0.89)"     // primeira musica
     document.querySelector("#mk").style.color = "#000"
     document.querySelector("#mk").style.width = "100%"
     document.querySelector("#mk").style.borderRadius = "0px 10px 10px 0px"
