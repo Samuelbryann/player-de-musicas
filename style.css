@@ -189,17 +189,18 @@ body{
 
     #list-music{
         width: 100%;
-        height: 10%;
+        height: 25%;
         margin: 0%;
-        display: flex;
-        flex-direction: row;
+        padding: 0%;
+        display: inline-block;
         overflow: hidden;
+        overflow-y: auto;
     }
 
     .itens-list-music{
         background-color: #15112d ;
-        height: 100%;
-        width: 150px;
+        height: 30%;
+        width: 100%;
         box-shadow: 2px 2px 6px rgba(14, 14, 14, 0.466);
         padding: 10px;
         font-size: 10px;
@@ -211,9 +212,10 @@ body{
 
     #container{
         background: linear-gradient(360deg, rgba(0,78,255,1) 0%, rgba(94,58,238,1) 0%, rgba(81,133,242,1) 100%);    
-        height: 70vh;
+        height: 75vh;
         width: 100%;
         margin: 0%;
+        border-radius: 0%;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.692);
         display: flex;
         flex-direction:column ;
@@ -222,5 +224,30 @@ body{
     
     }
 
-}
+    #header h1{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #header img{
+        margin-left: 3px;
+        height: 50%;
+    }
 
+    #tale-init{
+        position: absolute;
+        top: 35%;
+        height: 10vh;
+        width: 50vw;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        color: #261a66;
+        transition: all 1s ease-in-out;
+    }
+
+    #image{
+       border-radius: 10px;
+    }
+
+}
