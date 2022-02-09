@@ -24,7 +24,6 @@ document.querySelector("#pause").addEventListener("click", rausar)
 
 
 function rausar(){
-    document.querySelector("#mk").style.backgroundColor = "#15112d "
     document.querySelector("#mk").style.color = "rgb(245, 245, 245)"
     document.querySelector("#mk").style.width = "90%"
     document.querySelector("#mk").style.borderRadius = "0px 10px"
@@ -66,7 +65,6 @@ document.querySelector("#pause").addEventListener("click", rausar2)
 
 
 function rausar2(){
-    document.querySelector("#pt").style.backgroundColor = "#15112d "
     document.querySelector("#pt").style.color = "rgb(245, 245, 245)"
     document.querySelector("#pt").style.width = "90%"
     document.querySelector("#pt").style.borderRadius = "0px 10px"
@@ -96,6 +94,7 @@ function reproduzir3(){
     document.querySelector("#rd").style.color = "#000"
     document.querySelector("#rd").style.width = "100%"
     document.querySelector("#rd").style.borderRadius = "0px 10px 10px 0px"
+
     image3.style.backgroundImage = "url(assests/rockin.png)"
     musica3.play()
     document.querySelector("#play").style.display = "none"
@@ -107,7 +106,6 @@ document.querySelector("#pause").addEventListener("click", rausar3)
 
 
 function rausar3(){
-    document.querySelector("#rd").style.backgroundColor = "#15112d "
     document.querySelector("#rd").style.color = "rgb(245, 245, 245)"
     document.querySelector("#rd").style.width = "90%"
     document.querySelector("#rd").style.borderRadius = "0px 10px"
@@ -143,7 +141,6 @@ document.querySelector("#pause").addEventListener("click", rausar4)
 
 
 function rausar4(){
-    document.querySelector("#fl").style.backgroundColor = "#15112d "
     document.querySelector("#fl").style.color = "rgb(245, 245, 245)"
     document.querySelector("#fl").style.width = "90%"
     document.querySelector("#fl").style.borderRadius = "0px 10px"
@@ -179,7 +176,6 @@ document.querySelector("#pause").addEventListener("click", rausar5)
 
 function rausar5(){
 
-    document.querySelector("#k").style.backgroundColor = "#15112d "
     document.querySelector("#k").style.color = "rgb(245, 245, 245)"
     document.querySelector("#k").style.width = "90%"
     document.querySelector("#k").style.borderRadius = "0px 10px"
